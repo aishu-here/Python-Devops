@@ -46,4 +46,4 @@ Note: If you've already pushed once then set the upstream to main
 git push --set-upstream origin main
 ```
 
-After this on every subsequent push you can just simply do the set 2 and 3 after than just push the code by `git push`
+After this on every subsequent push you can just simply do the step 2 and 3 after that just push the code by `git push`
