@@ -21,17 +21,17 @@ or add the single file
 git add <filename>
 ```
 
-3. Commit All your changes
+3. Commit all your changes
 ```
 git commit -m "message here..."
 ```
 
-4. If you are doing it for the first time, then set teh branch to main 
+4. If you are doing it for the first time, then set the branch to main 
 ```
 git branch -m Main 
 ```
 
-5.Set the remote oriin by
+5.Set the remote origin by
 ```
 git remote add origin <repo url here...>
 ```
