@@ -1,0 +1,23 @@
+Initialize teh git folder
+git init
+to cross verify, checkout the root or the folder where you have initalized the git by
+
+ls -a
+Add all the untracked files for staging
+git add .
+or add the single file
+
+git add <filename>
+Commit All your changes
+git commit -m "message here..."
+If you are doing it for the first time, then set teh branch to main
+git branch -m Main 
+5.Set the remote oriin by
+
+git remote add origin <repo url here...>
+push all your changes
+git push origin main
+Note: If you've already pushed once then set the upstream to main
+
+git push --set-upstream origin main
+After this on every subsequent push you can just simply do the set 2 and 3 after than just push the code by git push
